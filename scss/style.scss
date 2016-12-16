@@ -2,5 +2,28 @@
 @import "includes/_reset.scss";
 @import "includes/_footer.scss";
 
-//Load Libs SASS
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_clearfix.scss";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid.scss";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins/responsive-visibility.scss";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities.scss";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/grid.scss";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/theme.scss";
+
+
+@import "includes/_main.scss";
+
+
+
+
+
+
+
+
+
+
+
+
+
 

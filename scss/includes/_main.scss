@@ -7,15 +7,15 @@
 }
 
 .calendar {
-  @extend .col-md-12;
-  @extend .col-lg-12;
+  @include make-md-column(12);
+  @include make-lg-column(12);
 }
 
 .calendar_items {
-  @extend .col-md-1;
-  @extend .col-lg-1;
-  @extend .col-xs-1;
-  @extend .col-sm-1;
+  @include make-md-column(1);
+  @include make-lg-column(1);
+  @include make-xs-column(1);
+  @include make-sm-column(1);
 }
 .medium {
   @extend .hidden-sm;

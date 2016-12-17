@@ -4,7 +4,6 @@ For the implementation of the calendar behavior logic I used:
 <li> Mixins or @extend for classes bootstrap
 <li> The names of the classes according to BEM
 
-Preview http://dedn.github.io/semantic_page/
 
 ### Project structure
      app /                                   :complete application   

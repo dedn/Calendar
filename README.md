@@ -1,6 +1,9 @@
 # Calendar
 For the implementation of the calendar behavior logic I used:
-
+<li> Bootstrap Sass
+<li> Mixins or @extend for classes Bootstrap
+<li> The names of the classes according to BEM
+<li> For positioning the blocks used only Bootstrap
 
 Preview: http://dedn.github.io/calendar/index.html
 

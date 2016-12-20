@@ -1,0 +1,65 @@
+.wrapper {
+  @extend .container-fluid;
+}
+
+.calendar {
+    @include make-xs-column(80);
+    @include make-sm-column(80);
+    @include make-md-column(80);
+    @include make-lg-column(83);
+}
+
+.calendar_items {
+  @include make-xs-column(75);
+  @include make-sm-column(75);
+  @include make-md-column(11);
+  @include make-lg-column(11);
+
+}
+
+.calendar--title {
+  @include make-xs-column(11);
+  @include make-sm-column(80);
+  @include make-md-column(11);
+  @include make-lg-column(11);
+}
+
+.calendar__time {
+  @extend .hidden-lg;
+  @extend .hidden-sm;
+  @extend .hidden-xs;
+  @include make-md-column(3);
+  @include make-lg-column(3);
+  @include make-xs-column(3);
+  @include make-sm-column(3);
+
+}
+
+.time-list {
+  @extend .hidden-lg;
+  @include make-xs-column(5);
+  @include make-sm-column(5);
+  @include make-md-column(3);
+  @include make-lg-column(3);
+
+}
+
+.medium {
+  @extend .hidden-sm;
+}
+
+.calendar--small {
+  @extend .hidden-xs;
+  @extend .hidden-sm;
+}
+
+.calendar--task {
+  @extend .hidden-sm;
+  @extend .hidden-md;
+  @extend .hidden-lg;
+  @include make-xs-column(80);
+}
+
+.calendar--extra {
+  @extend .hidden-xs;
+}

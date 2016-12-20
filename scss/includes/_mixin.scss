@@ -1,0 +1,22 @@
+@mixin bg{
+  background: linear-gradient(
+      rgba(255,255,255, 0) .9em, rgba(0, 0, 0, .15) 1em)
+  0 0,
+  linear-gradient(90deg,
+      rgba(255,255,255, 0) .9em, rgba(0, 0, 0, .15) 1em)
+  0 0;
+  background-size: 1em 1em;
+  background-color: ivory;
+
+  @media only screen and (max-width: 992px) {
+    background: linear-gradient(90deg,
+      rgba(255, 255, 255, 0) 1.8em, rgba(135, 206, 235, .5) 2em)
+    4em 0 repeat-y,
+    linear-gradient(
+        rgba(255,255,255, 0) 1.9em, rgba(0, 0, 0, .15) 2em)
+    0 0;
+    background-size: 2em 2em;
+    background-color: ivory;
+
+  }
+}

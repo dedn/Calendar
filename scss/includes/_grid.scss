@@ -1,47 +1,40 @@
+
 .wrapper {
   @extend .container-fluid;
 }
-
 .calendar {
-    @include make-xs-column(80);
-    @include make-sm-column(80);
-    @include make-md-column(80);
-    @include make-lg-column(83);
+    @include make-xs-column(14);
+    @include make-sm-column(14);
+    @include make-md-column(14);
+    @include make-lg-column(14);
 }
-
 .calendar_items {
-  @include make-xs-column(75);
-  @include make-sm-column(75);
-  @include make-md-column(11);
-  @include make-lg-column(11);
+  @include make-xs-column(14);
+  @include make-sm-column(13);
+  @include make-md-column(2);
+  @include make-lg-column(2);
 
 }
 
 .calendar--title {
-  @include make-xs-column(11);
-  @include make-sm-column(80);
-  @include make-md-column(11);
-  @include make-lg-column(11);
-}
-
-.calendar__time {
-  @extend .hidden-lg;
-  @extend .hidden-sm;
-  @extend .hidden-xs;
-  @include make-md-column(3);
-  @include make-lg-column(3);
-  @include make-xs-column(3);
-  @include make-sm-column(3);
-
+  @include make-xs-column(2);
+  @include make-sm-column(14);
+  @include make-md-column(2);
+  @include make-lg-column(2);
 }
 
 .time-list {
   @extend .hidden-lg;
-  @include make-xs-column(5);
-  @include make-sm-column(5);
-  @include make-md-column(3);
-  @include make-lg-column(3);
+  @extend .hidden-md;
+  @extend .hidden-xs;
+  @include make-sm-column(14);
+}
 
+.time-list{
+  @include make-sm-column(1);
+  @extend .hidden-lg;
+  @extend .hidden-md;
+  @extend .hidden-xs;
 }
 
 .medium {
@@ -49,15 +42,19 @@
 }
 
 .calendar--small {
-  @extend .hidden-xs;
   @extend .hidden-sm;
+  @extend .hidden-xs;
+}
+.calendar__month{
+  @extend .hidden-md;
+  @extend .hidden-lg;
 }
 
 .calendar--task {
   @extend .hidden-sm;
   @extend .hidden-md;
   @extend .hidden-lg;
-  @include make-xs-column(80);
+  @include make-xs-column(14);
 }
 
 .calendar--extra {

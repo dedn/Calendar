@@ -1,8 +1,12 @@
 # Calendar
+[Link to preview ]( http://dedn.github.io/calendar/)
+
 For the implementation of the calendar behavior logic I used:
 <li> Bootstrap Sass
 <li> Mixins or @extend for classes bootstrap
 <li> The names of the classes according to BEM
+
+
 
 
 ### Project structure
